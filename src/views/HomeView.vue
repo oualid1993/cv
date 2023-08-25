@@ -8,6 +8,7 @@ import lang from "../lang/about";
 
 <template>
   <main>
+    <div class="space"></div>
     <div class="main-content">
       <div class="left-content">
         <img src="../assets/photo1.jpg" alt="" />
@@ -17,9 +18,13 @@ import lang from "../lang/about";
         </div>
         <div class="job">{{ lang[stor.getLang].job }}</div>
         <div class="social-media">
-          <img src="../assets/icon/github.svg" alt="" />
-          <img src="../assets/icon/twitter.svg" alt="" />
-          <img src="../assets/icon/linkedin.svg" alt="" />
+          <a href="https://github.com/oualid1993"
+            ><img src="../assets/icon/github.svg" alt=""
+          /></a>
+          <a href=""><img src="../assets/icon/twitter.svg" alt="" /></a>
+          <a href="https://linkedin.com/in/oualid-rahdouni">
+            <img src="../assets/icon/linkedin.svg" alt=""
+          /></a>
         </div>
       </div>
       <div class="right-content">
@@ -109,9 +114,8 @@ main {
   margin-top: 20px;
 }
 
-.social-media > img {
+.social-media > a > img {
   width: 30px;
-  margin: 5px;
 }
 
 /* right content */
@@ -200,6 +204,7 @@ a {
 @media screen and (max-width: 716px) {
   .main-content {
     width: 90%;
+    top: 60%;
   }
 }
 
