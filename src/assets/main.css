@@ -1,0 +1,7 @@
+@import "./base.css";
+
+:root {
+  --color-primary: #f9f8f8;
+  --color-second: #2c363f;
+  --color-action: #068d9d;
+}

@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* font  */
+
+body {
+  font-family: "Roboto Slab", serif;
+
+  letter-spacing: 1px;
+  height: 100%;
+}
+
+@media screen and (max-width: 584px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* scroling barre */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-action);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
